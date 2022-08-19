@@ -5,8 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "nyc": "nyc"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +35,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "nyc": "git+https://github.com/loidy/nyc.git#cwd-fix",
     "typescript": "~4.7.2"
   }
 }
